@@ -1,3 +1,5 @@
+from decimal import Decimal, ROUND_DOWN
+
 def f_days_period(start_date, end_date):
     """
     하루단위 기간 계산

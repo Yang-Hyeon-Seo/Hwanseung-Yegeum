@@ -105,7 +105,7 @@ def hwanseung_yegeum(request):
     # 세전이자
     increased_interest_before_tax = f_interest(
         original_amount + original_interest,
-        new_interest_rate,
+        new_interest_rate + Decimal('0.0025'),
         additional_period,
         year
     )
@@ -119,7 +119,7 @@ def hwanseung_yegeum(request):
     # 세전이자
     decreased_interest_before_tax = f_interest(
         original_amount + original_interest,
-        new_interest_rate,
+        new_interest_rate - Decimal('0.0025'),
         additional_period,
         year
     )
