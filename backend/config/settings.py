@@ -118,4 +118,4 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
-TAX_RATE = 0.154  # 15.4%
+TAX_RATE = 0.154  # 국세 14% 지방세 1.4%
