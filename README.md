@@ -48,7 +48,7 @@
 
 ## 🔗 API 명세 및 연동 가이드 (For Frontend)
 
-### `POST` `/api/calculate-switch/`
+### `POST` `/api/calculator/`
 예금 환승 시나리오 결과를 반환합니다.
 
 **Request Body (JSON):**
